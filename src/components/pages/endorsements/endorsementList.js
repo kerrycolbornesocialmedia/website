@@ -1,0 +1,82 @@
+import rayChisholm from "./local_media/RayChisholm.jpg"
+import johnSawyer from "./local_media/JohnSawyer.jpg"
+import cathyDuddeck from './local_media/CathyDuddeck.jpg'
+import danLawrie from './local_media/DanLawrie.jpg'
+import garyWill from './local_media/GaryWill.png'
+import jeffKnoll from './local_media/JeffKnoll.png'
+import laurenceHenderson from './local_media/LaurenceHenderson.jpg'
+import lindaLeatherdale from './local_media/LindaLeatherdale.png'
+import lisaRaitt from './local_media/LisaRaitt.jpg'
+import maryCardamone from './local_media/MaryCardamone.png'
+
+const EndorsementList = 
+    [
+        {
+            photo: lisaRaitt,
+            firstName: "Lisa",
+            lastName: "Raitt",
+            title: "The Hon. Lisa Raitt PC MP 2008 - 2019, served as the Conservative Party Deputy Leader.",
+            endorsement: "“Kerry Colborne has established herself as a hard-working community builder in Oakville. I am aware of her significant accomplishments and her talent for drawing together diverse people to achieve a common vision.  From our collaboration, while I was a Cabinet Minister and Kerry was leading the Chamber of Commerce, I know she possesses the right personality and experience to be an effective Member of Parliament.  She understands the workings of government and has experience collaboratively creating and debating policy.  Kerry will serve Oakville well and she has my unwavering support in seeking the Conservative Party nomination in Oakville.”Lisa RaittThe Hon. Lisa Raitt PC was a Member of Parliament from 2008 to 2019. Lisa served as Minister of Natural Resources, Minister of Labour, and Minister of Transportation. She was Deputy Leader of the Opposition from 2017 to 2019 and she also served as the Conservative Party Deputy Leader."
+        
+        },
+        {
+            photo: johnSawyer,
+            firstName: "John",
+            lastName: "Sawyer",
+            title: "President, Oakville Chamber of Commerce, 2005 - 2018",
+            endorsement: "“I have worked closely with Kerry for 15 years. She is smart, energetic and an experienced community leader. I know she will do an outstanding job representing Oakville in Parliament.” John Sawyer President, Oakville Chamber of Commerce, 2005 – 2018"
+        },
+        {
+            photo: lindaLeatherdale,
+            firstName: "Linda",
+            lastName: "Leatherdale",
+            title: "Vice-President, Cambria Canada",
+            endorsement: "“Canada needs a strong voice for our largest job creators – Main Street entrepreneurs who have given their blood, sweat and tears to create a vibrant, tax-paying middle class, the backbone of our economy, and who now are struggling to survive this deadly pandemic.  That voice for Oakville is Kerry Colborne, a seasoned, compassionate business executive, who has owned and operated her own small business in Oakville for the past 10 years, who has impressive international experience working with Fortune 100 companies, and who ranked in the Top 10 when working for the Business Development Bank of Canada.  In short, Kerry cares about people, growing businesses, creating jobs, and giving back to the community.  For years, she has lent her expertise to the Oakville Chamber of Commerce and other organizations, who make Oakville one of the most desired places to live in this country. She is a believer in fair taxation, fiscal responsibility, and government for the people and by the people.  She will work tirelessly to put an end to repeated scandals and waste of our precious tax dollars. Kerry wants to restore faith and trust in government.  She will fight for hard-working families.  She will fight for Oakville.  We need her voice.”Linda LeatherdaleVice-President, Cambria Canada"
+        },
+        {
+            photo: maryCardamone,
+            firstName: "Mary",
+            lastName: "Cardamone",
+            title: "Past Campaign Chair - United Way of Oakville",
+            endorsement: "“I’ve known Kerry for many years through her volunteer work, her business in Oakville, and as the recipient of a Paul Harris Fellow that was awarded to her by my Rotary Club. Kerry is highly respected for her service to the community. She is also well known as someone who cares and who gets things done. Kerry understands the issues and how to develop policy and I think she’d be an outstanding voice in Ottawa for Oakville.”Mary CardamonePast Campaign Chair – United Way of OakvillePast Chair – Rotary Club of Oakville WestPast Chair – Oakville Chamber of CommerceMember of Maycourt OakvillePast Director of Twin Oaks Credit Union"
+        },
+        {
+            photo: danLawrie,
+            firstName: "Dan",
+            lastName: "Lawrie",
+            title: "Founder & Chairman, Lawrie Insurance Group Inc.",
+            endorsement: "“I have worked with Kerry for many years in both professional and volunteer capacities.  She distinguished herself as a real leader at the Oakville Chamber of Commerce.  She had the knack of listening to the membership, building coalitions, and leading us to achieve our goals.  I have no doubt Kerry would be an exceptional member of parliament who puts her constituents above all other considerations.  She has my unqualified support for the party nomination in Oakville.”Dan LawrieFounder & Chairman, Lawrie Insurance Group Inc."
+        },
+        {
+            photo: laurenceHenderson,
+            firstName: "Laurence (Ren)",
+            lastName: "Henderson",
+            title: "Partner, Henderson Roller Smit, Professional Corporation",
+            endorsement: "“Kerry has travelled many miles as an Oakville community volunteer and a successful entrepreneur.  I know firsthand from when Kerry worked with Rotary on the Oakville Awards For Business Excellence, and other projects over the years, that she has made vital contributions as a volunteer.Kerry’s many hours of community service have made her keenly aware of the interests and needs of Oakville’s citizens, we need her experience, expertise and outstanding people skills .  I know from working closely with Kerry that she is responsive, honourable, and diligent.  I enthusiastically support her as a contestant for the federal Conservative Party nomination in Oakville.”Laurence (Ren) HendersonPartner, Henderson Roller Smit, Professional Corporation"
+        },
+        {
+            photo: cathyDuddeck,
+            firstName: "Cathy",
+            lastName: "Duddeck",
+            title: "Regional and Town Councillor Ward 2",
+            endorsement: "  “I have worked with Kerry, both at the Town and Regional level, and I look forward to having the opportunity to work with her on a federal level. Her dedication and commitment to our community is exactly the voice we need to represent us here and in Ottawa!”  Cathy Duddeck Regional and Town Councillor Ward 2 "
+        },
+        {
+            photo: jeffKnoll,
+            firstName: "Jeff",
+            lastName: "Knoll",
+            title: "Oakville Town & Region Councillor Ward 5",
+            endorsement: "“As a fellow Oakville-based business owner, I respect Kerry’s acumen and integrity.  I have been involved in representing Oakville at the local and regional levels, often alongside federal representatives; I know what our community needs from a member of parliament. I have known Kerry Colborne for years and counted on her to be a thoughtful and intelligent advocate for her fellow citizens. I am pleased to support her in the contest to choose the next federal Conservative candidate.”Jeff KnollOakville Town & Region CouncillorWard 5"
+        },
+        {
+            photo: rayChisholm,
+            firstName: "Ray",
+            lastName: "Chisholm",
+            title: "Councillor, Town of Oakville Ward 2",
+            endorsement: "“I have watched Kerry work deftly to build consensus and to make progress for our community. Working with her on the Oakville Arts Council and observing her as Chair of the Chamber of Commerce, I have seen how her selfless yet quietly confident approach earns her supporters across the spectrum. We need Kerry.”Ray Chisholm Councillor, Town of Oakville Ward"
+            
+            }
+    ]
+
+
+export default EndorsementList;
