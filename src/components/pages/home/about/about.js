@@ -42,7 +42,7 @@ const Column = styled.div`
     width: 70%;
     padding-left: 0;
     border-radius: 5px;
-    border: 0.4em solid white;
+    border: 0px solid white;
     
     
     @media (max-width: 768px) {   
@@ -55,7 +55,7 @@ const Column = styled.div`
     box-shadow: 1px 2px 9px gray;
     width: 70%;
     padding-left: 0;
-    border-radius: 5px;
+    border-radius: 0px;
     
     
     @media (max-width: 768px) {

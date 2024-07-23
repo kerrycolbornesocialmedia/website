@@ -10,7 +10,7 @@ const Box = styled.div`
     border-radius: 5px;
     box-shadow: 1px 2px 9px gray;
     width: 80%;
-    padding: 0.2em;
+    padding: 0.0em;
 
     @media (max-width: 768px) {
         grid-template-columns: 100%;
