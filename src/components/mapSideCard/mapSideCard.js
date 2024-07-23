@@ -18,7 +18,7 @@ const Box = styled.div`
 const Image = styled.div`
     width: 100%;
     
-    height: 40vh;
+    height: 50vh;
     margin: 0px 0px;
     background-position: center;
     border-radius: 5px; 
@@ -63,10 +63,10 @@ const TopTitle = styled.div`
       }
 `;
 const BottomTitle = styled.div`
-color: #152e52;
+color: #1d1717; #152e52; #01a5e0;
     padding: 0vh 2vw;
     font-weight: bolder;
-    font-size: 30pt;
+    font-size: 24pt;
       @media (max-width: 768px) {
       padding: 0vh 8vw;
       padding-bottom: 2vh;
@@ -101,21 +101,20 @@ const Details = styled.div`
 
 const Attribution = styled.div`
   padding: 0vh 2vw;
-  font-size: 8pt;
-
-  
+  font-size: 8pt;  
   @media (max-width: 768px) {
     margin: 0vh 4vw;
     margin-bottom: 2vh;
     font-size: 10pt;
 }`;
 
-const MapSideCard = ({map, title, subtitle}) => {
+const MapSideCard = ({map, top, title, subtitle}) => {
     return (
         <Box>
             
             
             <Details>
+              
                 <TopTitle>{title}</TopTitle>
                 <BottomTitle>{subtitle}</BottomTitle>
             </Details>

@@ -13,7 +13,7 @@ const Box = styled.div`
     }
           &:hover {
     transform: scale(1.025);
-    filter: brightness(75%);
+    filter: brightness(85%);
   }
 
     & > div > a {
@@ -23,10 +23,12 @@ const Box = styled.div`
         font-style: italic;
         
         background-color: rgba(255, 255, 255, 0.8);
+
         & > p {
+        color: white;
             padding-left: 1vw;
             font-size: 14pt;
-            z-index: 1;
+            color: white;
             @media (max-width: 768px) {
                 padding-left: 4vw;
             }
@@ -44,7 +46,7 @@ const Photo = ({image, title, link, cols, rows}) => {
         
     return (
         <Box style = {{ gridColumn:  `span ${cols}`, gridRow: `span ${rows}`, backgroundImage: `url(${image})`}}> 
-            <div style={{position: "absolute", bottom: "2vh", right: "2vw" }}>
+            <div style={{position: "absolute", bottom: "2vh", right: "2vw", zIndex: "1"}}>
                 <a href = {link} ><p>{title}</p></a>
             </div>
         </Box>

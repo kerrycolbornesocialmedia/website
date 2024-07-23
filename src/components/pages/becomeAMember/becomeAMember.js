@@ -6,7 +6,7 @@ import {db} from '../../fireStore/fireStore';
 import { collection, addDoc } from "firebase/firestore";
 import SideCard from "../../sideCard/sideCard";
 import MapSideCard from "../../mapSideCard/mapSideCard";
-import oakvilleWestMap from "../../../media/Oakville-West-Map.png"
+import oakvilleWestMap from "./local_media/oakvilleWestBoundary.jpg"
 
 const Container = styled.div`
   display: flex;
@@ -126,8 +126,9 @@ const FormCard = styled.div`
   & > form > button{
 
     width: 60%;
-    height: 5vh;
-    margin: 2vh 1vw;
+    height: 7vh;
+    border-radius: 5px;
+    margin: 4vh 1vw;
     margin-bottom: 5vh;
     background-color: #152e52;
     color: white;
@@ -136,7 +137,7 @@ const FormCard = styled.div`
   }
   & > div {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
     padding-bottom: 4vh;
     margin: 0px 0px;
     margin-bottom: 2vh;
@@ -243,8 +244,9 @@ const BecomeAMember = (menu_state) => {
                     </FormCard>
                   </Column>
                   <RightColumn>
-                  <MapSideCard map = {oakvilleWestMap} title = {"*New* Oakville West"} subtitle = "Riding Boundaries"/>
-                  
+                  <MapSideCard map = {oakvilleWestMap} top = "Revised" title = {"Oakville West"} subtitle = "Riding Boundaries"/>
+                  <div style = {{height: "50vh", border: "5px", backgroundColor: "white", boxShadow: "1px 2px 9px gray", marginTop: "7vh", marginBottom: "7vh", borderRadius: "5px"}}><iframe style = {{height: "100%", width: "100%", borderRadius: "5px"}} src = "https://www.oakvillenews.org/local-news/oakville-east-or-west-federal-electoral-proposed-ridings-8475340" />
+                  </div>
                     </RightColumn>
                 </Container>
         </div>
