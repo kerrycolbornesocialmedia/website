@@ -84,7 +84,7 @@ const Endorsements = (menu_state) => {
         <EndorsementCard photo = {lisaRaitt} 
         firstName = "Lisa" 
         lastName = "Raitt" 
-        title = "The Hon. Lisa Raitt PC MP 2008 - 2019, served as the Conservative Party Deputy Leader."
+        title = "The Hon. Lisa Raitt PC MP 2008 - 2019, Deputy Leader."
         endorsement = "“Kerry Colborne has established herself as a hard-working community builder in Oakville. I am aware of her significant accomplishments and her talent for drawing together diverse people to achieve a common vision.  From our collaboration, while I was a Cabinet Minister and Kerry was leading the Chamber of Commerce, I know she possesses the right personality and experience to be an effective Member of Parliament.  She understands the workings of government and has experience collaboratively creating and debating policy.  Kerry will serve Oakville well and she has my unwavering support in seeking the Conservative Party nomination in Oakville.”Lisa RaittThe Hon. Lisa Raitt PC was a Member of Parliament from 2008 to 2019. Lisa served as Minister of Natural Resources, Minister of Labour, and Minister of Transportation. She was Deputy Leader of the Opposition from 2017 to 2019 and she also served as the Conservative Party Deputy Leader." 
         />
         <EndorsementCard photo = {johnSawyer} 

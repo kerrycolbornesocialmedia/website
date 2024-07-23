@@ -93,7 +93,7 @@ const TitleBox = styled.div`
     padding-top: 0em;
     
     @media (max-width: 768px) {
-        font-size: 10pt;
+        font-size: 8pt;
         padding-bottom: 4vh;
     }
 
