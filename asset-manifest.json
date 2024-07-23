@@ -1,40 +1,39 @@
 {
   "files": {
     "main.css": "./static/css/main.e6c13ad2.css",
-    "main.js": "./static/js/main.3d285a15.js",
+    "main.js": "./static/js/main.d56c988a.js",
     "static/js/453.01809850.chunk.js": "./static/js/453.01809850.chunk.js",
     "static/media/hero-image.png": "./static/media/hero-image.fb86e34c0ea894c60aa3.png",
     "static/media/LindaLeatherdale.png": "./static/media/LindaLeatherdale.ef3dbcc06ae207ceb3b0.png",
     "static/media/header.png": "./static/media/header.fbbf760114451a702720.png",
     "static/media/kerry_food_for_life.jpg": "./static/media/kerry_food_for_life.0da340db4aaf1480c29e.jpg",
-    "static/media/LaurenceHenderson.jpg": "./static/media/LaurenceHenderson.759a4c894ded6be3fee3.jpg",
     "static/media/CathyDuddeck.jpg": "./static/media/CathyDuddeck.7e59df85117b4a2970fd.jpg",
+    "static/media/LaurenceHenderson.png": "./static/media/LaurenceHenderson.50b9b7d70308dd9b1995.png",
+    "static/media/JeffKnoll.png": "./static/media/JeffKnoll.1bce7c70eb2b8f253668.png",
+    "static/media/DanLawrie.png": "./static/media/DanLawrie.94731ca2122cf74e10b6.png",
+    "static/media/RayChisholm.png": "./static/media/RayChisholm.47889cb8cb019c2f1266.png",
     "static/media/Oakville-West-Map.png": "./static/media/Oakville-West-Map.dd9f0ecb36cc5925b594.png",
-    "static/media/DanLawrie.jpg": "./static/media/DanLawrie.d0ea9bd505457b16fbaa.jpg",
     "static/media/Sign-Install.jpg": "./static/media/Sign-Install.c3b2ab6f891078db6e56.jpg",
-    "static/media/JeffKnoll.png": "./static/media/JeffKnoll.72cf3f2ac3d7a24087e1.png",
     "static/media/LisaRaitt.jpg": "./static/media/LisaRaitt.9a60aa72e269945d0389.jpg",
     "static/media/indian_festival_a.jpg": "./static/media/indian_festival_a.5c20d03d6ac952bc8808.jpg",
     "static/media/MaryCardamone.png": "./static/media/MaryCardamone.c2d3fd967e4757cc06be.png",
     "static/media/image.png": "./static/media/image.fdcf91362e7a28384d3d.png",
     "static/media/kerryPodium.png": "./static/media/kerryPodium.ba313da67a28b31ca8bd.png",
-    "static/media/GaryWill.png": "./static/media/GaryWill.fd5a45aeea72b16b044a.png",
     "static/media/canada_day_a.jpg": "./static/media/canada_day_a.d64fab112f493a7561ca.jpg",
     "static/media/leaf_background.png": "./static/media/leaf_background.f3455216a0f05e0d1345.png",
     "static/media/Kerry-with-Chamber-Board.jpg": "./static/media/Kerry-with-Chamber-Board.9ba2b8dcad2f8c8d94d7.jpg",
     "static/media/business-experience.jpg": "./static/media/business-experience.f99c2df3fc2fe1390877.jpg",
-    "static/media/RayChisholm.jpg": "./static/media/RayChisholm.9413410987487d1d14d5.jpg",
     "static/media/KERRY-with-John-Sawyer-Edited.jpg": "./static/media/KERRY-with-John-Sawyer-Edited.e77e6ebbd67327714ca2.jpg",
     "static/media/Kerry-sidebar.jpg": "./static/media/Kerry-sidebar.ce692e6c3f7a66ac2883.jpg",
     "static/media/JohnSawyer.jpg": "./static/media/JohnSawyer.240a0afacb13fe89e11f.jpg",
     "static/media/lgoo_horizontal_white.png": "./static/media/lgoo_horizontal_white.bc9caa0a91d12e73707c.png",
     "index.html": "./index.html",
     "main.e6c13ad2.css.map": "./static/css/main.e6c13ad2.css.map",
-    "main.3d285a15.js.map": "./static/js/main.3d285a15.js.map",
+    "main.d56c988a.js.map": "./static/js/main.d56c988a.js.map",
     "453.01809850.chunk.js.map": "./static/js/453.01809850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3d285a15.js"
+    "static/js/main.d56c988a.js"
   ]
 }
