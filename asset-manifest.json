@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.e6c13ad2.css",
-    "main.js": "./static/js/main.c9db82f0.js",
+    "main.js": "./static/js/main.4b77cd9c.js",
     "static/js/453.01809850.chunk.js": "./static/js/453.01809850.chunk.js",
     "static/media/hero-image.png": "./static/media/hero-image.fb86e34c0ea894c60aa3.png",
     "static/media/LindaLeatherdale.png": "./static/media/LindaLeatherdale.ef3dbcc06ae207ceb3b0.png",
@@ -13,12 +13,16 @@
     "static/media/DanLawrie.png": "./static/media/DanLawrie.94731ca2122cf74e10b6.png",
     "static/media/RayChisholm.png": "./static/media/RayChisholm.47889cb8cb019c2f1266.png",
     "static/media/oakvilleWestBoundary.jpg": "./static/media/oakvilleWestBoundary.64030c1bcd910aee175e.jpg",
+    "static/media/kerryBusinessA.jpg": "./static/media/kerryBusinessA.ae0ff076ddd7a0c568a1.jpg",
     "static/media/Sign-Install.jpg": "./static/media/Sign-Install.c3b2ab6f891078db6e56.jpg",
+    "static/media/kerryCookies.jpg": "./static/media/kerryCookies.0731d245fd12e63d7d19.jpg",
     "static/media/LisaRaitt.jpg": "./static/media/LisaRaitt.9a60aa72e269945d0389.jpg",
     "static/media/indian_festival_a.jpg": "./static/media/indian_festival_a.5c20d03d6ac952bc8808.jpg",
     "static/media/MaryCardamone.png": "./static/media/MaryCardamone.c2d3fd967e4757cc06be.png",
     "static/media/image.png": "./static/media/image.fdcf91362e7a28384d3d.png",
+    "static/media/kerryThumbsUp.jpg": "./static/media/kerryThumbsUp.4cfde9968c08f722fd7d.jpg",
     "static/media/kerryPodium.png": "./static/media/kerryPodium.ba313da67a28b31ca8bd.png",
+    "static/media/kerryPodiumB.jpg": "./static/media/kerryPodiumB.2a55e1b1dacc097227d6.jpg",
     "static/media/canada_day_a.jpg": "./static/media/canada_day_a.d64fab112f493a7561ca.jpg",
     "static/media/leaf_background.png": "./static/media/leaf_background.f3455216a0f05e0d1345.png",
     "static/media/Kerry-with-Chamber-Board.jpg": "./static/media/Kerry-with-Chamber-Board.9ba2b8dcad2f8c8d94d7.jpg",
@@ -29,11 +33,11 @@
     "static/media/lgoo_horizontal_white.png": "./static/media/lgoo_horizontal_white.bc9caa0a91d12e73707c.png",
     "index.html": "./index.html",
     "main.e6c13ad2.css.map": "./static/css/main.e6c13ad2.css.map",
-    "main.c9db82f0.js.map": "./static/js/main.c9db82f0.js.map",
+    "main.4b77cd9c.js.map": "./static/js/main.4b77cd9c.js.map",
     "453.01809850.chunk.js.map": "./static/js/453.01809850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c9db82f0.js"
+    "static/js/main.4b77cd9c.js"
   ]
 }
