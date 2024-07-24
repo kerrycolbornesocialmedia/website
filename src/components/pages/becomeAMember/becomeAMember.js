@@ -22,9 +22,8 @@ const Container = styled.div`
 
 const Column = styled.div`
   flex: 3;
-  padding-right: "7vw"; 
+
   fontSize: "14pt";
-  paddingLeft: "3vw";
   box-sizing: border-box;
 
   @media (max-width: 768px) {
@@ -65,8 +64,7 @@ const Column = styled.div`
 
 const RightColumn = styled(Column)`
   flex: 1;
-  padding-left: 2vw;
-  padding-right: 2vw;
+
   @media (max-width: 768px) {
     width: 100%;
     order: 2;
@@ -100,7 +98,7 @@ const FormCard = styled.div`
   border-radius: 5px;
   
   box-shadow: 1px 2px 9px gray;
-  width: 70%;
+  width: 80%;
   margin-bottom: 10vh;
   
   @media (max-width: 768px) {
@@ -166,7 +164,13 @@ const FormCard = styled.div`
     }
   }
 `;
+const MarginSpacer = styled.div`
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 
+`;
 const BecomeAMember = (menu_state) => {
     const [formData, setFormData] = React.useState(
       {
@@ -195,7 +199,8 @@ const BecomeAMember = (menu_state) => {
             <Header image={headerImage}
                 isMenuOpen={menu_state} />
                 <Container>
-                  <Column style={{paddingRight: "7vw", fontSize: "14pt", paddingLeft: "3vw"}}>
+                  <MarginSpacer />
+                  <Column style={{ fontSize: "14pt"}}>
                     <FormCard>
                       <div style = {{backgroundColor: "#152e52"}}>
                     <h1>Become a Member</h1>
@@ -248,6 +253,7 @@ const BecomeAMember = (menu_state) => {
                   <div style = {{height: "50vh", border: "5px", backgroundColor: "white", boxShadow: "1px 2px 9px gray", marginTop: "7vh", marginBottom: "7vh", borderRadius: "5px"}}><iframe style = {{height: "100%", width: "100%", borderRadius: "5px"}} src = "https://www.oakvillenews.org/local-news/oakville-east-or-west-federal-electoral-proposed-ridings-8475340" />
                   </div>
                     </RightColumn>
+                    <MarginSpacer />
                 </Container>
         </div>
     );

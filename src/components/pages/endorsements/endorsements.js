@@ -24,12 +24,17 @@ const Container = styled.div`
     padding-top: 2vh;
   }
 `;
+const MarginSpacer = styled.div`
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 
+`;
 const Column = styled.div`
   flex: 3;
 
   box-sizing: border-box;
-
   @media (max-width: 768px) {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -39,8 +44,6 @@ const Column = styled.div`
 `;
 const RightColumn = styled(Column)`
   flex: 1;
-  padding-left: 2vw;
-  padding-right: 2vw;
     @media (max-width: 768px) {
     width: 100%;
     order: 2;
@@ -76,7 +79,8 @@ const Endorsements = (menu_state) => {
       <Header image={headerImage}
         isMenuOpen={menu_state} />
          <Container>
-        <Column style={{paddingRight: "7vw", fontSize: "14pt", paddingLeft: "3vw"}}>
+          <MarginSpacer />
+        <Column style={{ paddingRight: "2vw", fontSize: "14pt"}}>
         <h1><b  style = {{color: "#2ebcf1", fontWeight: "bold", fontSize: "4vh"}}>Community</b> <b  style = {{color: "#152e52", fontWeight: "bolder", fontSize: "6vh"}}>Endorsement</b></h1>
         
         <br />
@@ -146,6 +150,7 @@ const Endorsements = (menu_state) => {
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKd9ssh8KNRvzLtiSXwbTbuA7aC2hXFWwAKQU9vJd49bZCEQ/viewform?embedded=true" width="450" height="100%" style={{marginTop: "15vh"}} frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
       
       </RightColumn>
+      <MarginSpacer />
     </Container>
      <div style={{paddingBottom: "200px"}} />
       

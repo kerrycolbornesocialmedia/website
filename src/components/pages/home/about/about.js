@@ -22,11 +22,17 @@ const Container = styled.div`
   }
 `;
 
+const MarinSpacer = styled.div`
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+`;
+
 const Column = styled.div`
   flex: 3;
-  padding-right: "7vw"; 
   fontSize: "14pt";
-  paddingLeft: "3vw";
   box-sizing: border-box;
 
   @media (max-width: 768px) {
@@ -36,7 +42,9 @@ const Column = styled.div`
     order: 1;
 
   }
-
+    & > p {
+    width: 85%;
+    }
   & > img {
     box-shadow: 1px 2px 9px gray;
     width: 70%;
@@ -76,6 +84,7 @@ const QuoteCard = styled.div`
     width: 80%;
   }
 
+
   &:hover {
     transform: scale(1.025);
   }
@@ -94,7 +103,7 @@ const Img = styled.img`
 const RightColumn = styled(Column)`
   flex: 1;
   padding-left: 2vw;
-  padding-right: 2vw;
+
   @media (max-width: 768px) {
     width: 100%;
     order: 2;
@@ -128,8 +137,10 @@ const About = () => {
   return (
     <div style={{}}>
     <Container style={{}}>
-      <Column style={{marginRight: "12vw"}}>
-        <h1><b  style = {{color: "#2ebcf1", fontWeight: "bold", fontSize: "4vh"}}>About&nbsp;</b> <b  style = {{color: "#152e52", fontWeight: "bolder", fontSize: "6vh"}}> Kerry</b></h1>
+      <MarinSpacer />
+      <Column style={{}}>
+        <h1 style = {{paddingBottom: "2vh"}}><b  style = {{color: "#2ebcf1", fontWeight: "bold", fontSize: "4vh"}}>About&nbsp;</b> <b  style = {{color: "#152e52", fontWeight: "bolder", fontSize: "6vh"}}> Kerry</b></h1>
+        
         <p>
         Kerry Colborne is a proud Canadian, a remarkably successful Oakville businesswoman and an experienced leader.  She is respectfully asking for your support by voting for her to be the Conservative Party candidate for <b>Oakville West</b> in the next federal election.
         </p>
@@ -177,6 +188,7 @@ Kerry has been working hard in Oakville West since the night of the last federal
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKd9ssh8KNRvzLtiSXwbTbuA7aC2hXFWwAKQU9vJd49bZCEQ/viewform?embedded=true"  >Loading…</iframe>
       
       </RightColumn>
+      <MarinSpacer />
     </Container>
     </div>
   );

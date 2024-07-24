@@ -22,18 +22,28 @@ const Container = styled.div`
 
 
 `;
+const MarinSpacer = styled.div`
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 
+`;
 const Column = styled.div`
   flex: 3;
 
   box-sizing: border-box;
   margin-bottom: 7vh;
+  
   @media (max-width: 768px) {
     padding-left: 10vw;
     padding-right: 10vw;
     width: 100%;
     order: 1;
   }
+    & > p {
+      width: 80%;
+    }
 
   & > iframe {
     width: 560px;
@@ -70,8 +80,7 @@ const Column = styled.div`
 `;
 const RightColumn = styled(Column)`
   flex: 1;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  
     @media (max-width: 768px) {
     width: 100%;
     order: 2;
@@ -98,7 +107,8 @@ const Experience = (menu_state) => {
       <Header image={headerImage}
         isMenuOpen={menu_state} />
          <Container>
-        <Column style={{paddingRight: "7vw", fontSize: "14pt", paddingLeft: "3vw"}}>
+          <MarinSpacer />
+        <Column style={{fontSize: "14pt"}}>
         <h1><b  style = {{color: "#2ebcf1", fontWeight: "bold", fontSize: "4vh"}}>Professionalism &</b> <b  style = {{color: "#152e52", fontWeight: "bolder", fontSize: "6vh"}}>Experience</b></h1>
         <br />
         <h2>Community Involvement</h2>
@@ -153,6 +163,7 @@ const Experience = (menu_state) => {
         <iframe style = {{width: "100%", height: "30vh", boxShadow: "1px 2px 9px gray", borderRadius: "5px", marginBottom: "10vh"}} src="https://www.youtube-nocookie.com/embed/gkJ1Jh9tuXU?si=XTzjOEAxs1-gakKJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
       </RightColumn>
+      <MarinSpacer />
     </Container>
      <div style={{paddingBottom: "200px"}} />
       
