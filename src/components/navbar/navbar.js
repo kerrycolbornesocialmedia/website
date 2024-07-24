@@ -103,36 +103,42 @@ const Navbar = ({LogoImage}) => {
       setPage((prevData) => ({...prevData , page: 0}))
     if(page.isMobile === 1)
       toggleMobileMenu()
+    window.scrollTo(0, 0);
   }
   const setEndorsements = () => {
     if(page.page != 1)
       setPage((prevData) => ({...prevData , page: 1}))
     if(page.isMobile === 1)
       toggleMobileMenu()
+    window.scrollTo(0, 0);
   }
   const setExperience = () => {
     if(page.page != 2)
       setPage((prevData) => ({...prevData , page: 2}))
     if(page.isMobile === 1)
       toggleMobileMenu()
+    window.scrollTo(0, 0);
   }
   const setCheckMembership = () => {
     if(page.page != 3)
       setPage((prevData) => ({...prevData , page: 3}))
     if(page.isMobile === 1)
       toggleMobileMenu()
+    window.scrollTo(0, 0);
   }
   const setBecomeAMember = () => {
     if(page.page != 4)
       setPage((prevData) => ({...prevData , page: 4}))
     if(page.isMobile === 1)
       toggleMobileMenu()
+    window.scrollTo(0, 0);
   }
   const setDonate = () => {
     if(page.page != 5)
       setPage((prevData) => ({...prevData , page: 5}))
     if(page.isMobile === 1)
       toggleMobileMenu()
+    window.scrollTo(0, 0);
   }
   const toggleMobileMenu = () => {
     setPage((prevData) => ({...prevData, isMobile: (page.isMobile == 0) ? 1 : 0 }))

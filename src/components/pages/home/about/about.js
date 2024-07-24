@@ -9,7 +9,11 @@ import canadaDayA from './local_media/canada_day_a.jpg'
 import indianFestivalA from './local_media/indian_festival_a.jpg'
 import PhotoGridA from '../../../photoGridA/photoGridA';
 import Photo from '../../../photoGridA/photo';
-
+import PhotoGridB from '../../../photoGridB/photoGridB'
+import kerryCookies from '../../../../media/kerryCookies.jpg'
+import kerryBusinessA from '../../../../media/kerryBusinessA.jpg'
+import kerryPodiumB from '../../../../media/kerryPodiumB.jpg'
+import kerryThumbsUp from '../../../../media/kerryThumbsUp.jpg'
 
 const Container = styled.div`
   display: flex;
@@ -146,7 +150,13 @@ const About = () => {
         </p>
         <br />
 
-        <img src = {kerryChamberBoard} />
+        
+        <PhotoGridB 
+         photoA = {kerryThumbsUp} titleA = {"A"} 
+         photoB = {kerryCookies} titleB = {"B"} 
+         photoC = {kerryBusinessA} titleC = {"C"}
+         photoD = {kerryPodiumB} titleD = {"D"}
+        />
 
         <br /> <br />
         <p>

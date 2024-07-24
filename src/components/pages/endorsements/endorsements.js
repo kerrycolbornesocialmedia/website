@@ -81,7 +81,7 @@ const Endorsements = (menu_state) => {
          <Container>
           <MarginSpacer />
         <Column style={{ paddingRight: "2vw", fontSize: "14pt"}}>
-        <h1><b  style = {{color: "#2ebcf1", fontWeight: "bold", fontSize: "4vh"}}>Community</b> <b  style = {{color: "#152e52", fontWeight: "bolder", fontSize: "6vh"}}>Endorsement</b></h1>
+        <h1><b  style = {{color: "#2ebcf1", fontWeight: "bold", fontSize: "4vh"}}>Community</b> <b  style = {{color: "#152e52", fontWeight: "bolder", fontSize: "6vh"}}>Endorsements</b></h1>
         
         <br />
 
