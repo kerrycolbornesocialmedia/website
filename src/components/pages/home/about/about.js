@@ -14,6 +14,10 @@ import kerryCookies from '../../../../media/kerryCookies.jpg'
 import kerryBusinessA from '../../../../media/kerryBusinessA.jpg'
 import kerryPodiumB from '../../../../media/kerryPodiumB.jpg'
 import kerryThumbsUp from '../../../../media/kerryThumbsUp.jpg'
+import PhotoGridC from '../../../photoGridC/photoGridC';
+import kerryDougFordA from '../../../../media/kerryDougFordA.jpg'
+import kerryPodiumC from '../../../../media/kerryPodiumC.jpg'
+import kerryPierreA from '../../../../media/kerryPierreA.jpg'
 
 const Container = styled.div`
   display: flex;
@@ -48,6 +52,7 @@ const Column = styled.div`
   }
     & > p {
     width: 85%;
+    font-size: 14pt;
     }
   & > img {
     box-shadow: 1px 2px 9px gray;
@@ -162,7 +167,13 @@ const About = () => {
         <p>
         She ran a very successful federal election campaign in 2021 garnering the best results for the Conservative Party in the western GTA, increasing the popular vote against a high profile Cabinet Minister despite only being nominated 7 days before the election.
      </p><br />
-        <img src = {signInstall}/>
+        
+        <PhotoGridC 
+         photoA = {signInstall} titleA = {"A"} 
+         photoB = {kerryPodiumC} titleB = {"B"} 
+         photoC = {kerryDougFordA} titleC = {"C"}
+         photoD = {kerryPierreA} titleD = {"D"}
+        />
         <br /> <br />
         <p>
           A sample of the comments received by Oakville voters after Election Day 2021: 
