@@ -22,7 +22,7 @@ import kerryPierreA from '../../../../media/kerryPierreA.jpg'
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding-top: 60px;
+  padding-top: 7vh;
   margin: 0 auto;
   max-width: 1600px;
   @media (max-width: 768px) {

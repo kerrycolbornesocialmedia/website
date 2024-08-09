@@ -13,6 +13,7 @@ const Box = styled.div`
     text-align: center;
     @media (max-width: 768px) {
         width: 100%
+        
     }
     &:hover {
     transform: scale(1.025);

@@ -16,7 +16,7 @@ import maryCardamone from './local_media/MaryCardamone.png'
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding-top: 10vh;
+  padding-top: 1vh;
   margin: 0 auto;
   max-width: 1600px;
   @media (max-width: 768px) {

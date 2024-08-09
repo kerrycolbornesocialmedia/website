@@ -113,11 +113,7 @@ const MapSideCard = ({map, top, title, subtitle}) => {
         <Box>
             
             
-            <Details>
-              
-                <TopTitle>{title}</TopTitle>
-                <BottomTitle>{subtitle}</BottomTitle>
-            </Details>
+
             <Image style={{backgroundImage: `url(${map})` }} />
             
             

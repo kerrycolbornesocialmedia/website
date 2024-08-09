@@ -6,7 +6,8 @@ import {db} from '../../fireStore/fireStore';
 import { collection, addDoc } from "firebase/firestore";
 import SideCard from "../../sideCard/sideCard";
 import MapSideCard from "../../mapSideCard/mapSideCard";
-import oakvilleWestMap from "./local_media/oakvilleWestBoundary.jpg"
+import oakvilleWestMap from "./local_media/oakville_west_map.png"
+import membershipFormBg from "./local_media/membership_form_bg.png"
 
 const Container = styled.div`
   display: flex;
@@ -188,7 +189,7 @@ const BecomeAMember = (menu_state) => {
         [name]: value
       }));
     };
-  
+    //backgroundColor: "#152e52", 
     const handleSubmit = async (e) => {
       e.preventDefault();
       window.location.href = ("https://donate.conservative.ca/membership/")
@@ -202,7 +203,7 @@ const BecomeAMember = (menu_state) => {
                   <MarginSpacer />
                   <Column style={{ fontSize: "14pt"}}>
                     <FormCard>
-                      <div style = {{backgroundColor: "#152e52"}}>
+                      <div style = {{backgroundImage: `url(${membershipFormBg})` , backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundSize: "cover"}}> 
                     <h1>Become a Member</h1>
                     <p>It starts with your Membership and vote for Kerry.</p>
                     <p><i>To be able to vote, you must have a valid Conservative Party of Canada Membership. Please note this is <u>not</u> the same as a provincial party membership.</i></p>
@@ -219,7 +220,7 @@ const BecomeAMember = (menu_state) => {
                       /><br /><br />
                       <label>Email *</label><br />
                       <input
-                        type="text"
+                        type="email"
                         id="email"
                         name="email"
                         value={formData.email}
@@ -228,13 +229,23 @@ const BecomeAMember = (menu_state) => {
                       /><br /><br />
                       <label>Phone</label><br />
                       <input
-                        type="text"
+                        type="tel"
                         id="phone"
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
   
                       /><br /><br />
+                      <label>Address *</label><br />
+                      <input
+                        type="text"
+                        id="address"
+                        name="address"
+                        value={formData.address}
+                        onChange={handleChange} 
+                        required
+                      /><br /><br />
+                      
                       <label>Postal Code *</label><br />
                       <input
                         type="text"
